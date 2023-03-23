@@ -1,0 +1,66 @@
+.spinner-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 20000;
+}
+
+.circle {
+  max-width: 750px;
+  max-height: 750px;
+  border-radius: 50%;
+  animation-name: big-circle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+@keyframes big-circle {
+  0% {
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    box-shadow: inset 0 0 100px rgba(255, 0, 102, 0.878);
+  }
+  50% {
+    box-shadow: inset 0 0 100px rgba(255, 0, 102, 0.878);
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    box-shadow: inset 0 0 0px rgba(255, 0, 102, 0);
+  }
+}
+
+.child-circle {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 50%;
+  animation-name: small-circle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  z-index: 10;
+}
+
+@keyframes small-circle {
+  0% {
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    box-shadow: inset 0 0 50px rgba(255, 0, 21, 0.878);
+  }
+  50% {
+    box-shadow: inset 0 0 50px rgba(255, 0, 38, 0.878);
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    box-shadow: inset 0 0 0px rgba(255, 0, 102, 0);
+  }
+}

@@ -1,0 +1,45 @@
+.link-basic-styles {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  height: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 0 0 5px black;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #ff0040, #ff3154);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logo-afg-con {
+  color: #ddd;
+}
+
+.logo-mdb-con {
+  color: rgb(211, 211, 211);
+  margin-left: 5px;
+}
+
+.logo-text-container {
+  padding: 0;
+}
+.squares-container {
+  display: flex;
+  gap: 5px;
+}
+
+.square {
+  width: 5px;
+  height: 5px;
+  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.26);
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.logo-text {
+  margin: 0;
+}

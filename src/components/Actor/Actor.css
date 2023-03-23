@@ -1,0 +1,20 @@
+.actor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+}
+
+.actor-image {
+  background-color: #363636;
+  width: 150px;
+  height: 100px;
+  border-radius: 2px;
+}
+
+.actor-name {
+  font-size: 16px;
+  color: #eee;
+}

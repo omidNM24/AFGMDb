@@ -1,0 +1,125 @@
+.movie-link {
+  width: 230px;
+  height: 345px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.movie-con {
+  width: 230px;
+  height: 345px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s;
+  z-index: 2000;
+}
+
+.movie-main-con {
+  transition: all 0.2s;
+}
+
+.movie-main-con-dark {
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.268);
+}
+
+.movie-main-con-dark:hover,
+.movie-main-con-dark:active {
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.423);
+}
+
+.movie-main-con-light {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.678);
+}
+
+.movie-main-con-light:hover,
+.movie-main-con-light:active {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.622);
+}
+
+.movie-highlight-dark {
+  box-shadow: inset 0 0 0 600px rgba(0, 0, 0, 0.692);
+}
+
+.movie-highlight-light {
+  box-shadow: inset 0 0 0 600px rgba(255, 255, 255, 0.566);
+}
+
+.movie-con-dark {
+  background-color: black;
+  color: white;
+}
+
+.movie-detail-con {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+
+.movie-detail-con-dark {
+  background-color: rgba(0, 0, 0, 0.664);
+  color: white;
+}
+
+.movie-detail-con-light {
+  background-color: rgba(255, 255, 255, 0.664);
+  color: black;
+}
+
+.movie-title {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.movie-short-detail {
+  display: flex;
+  align-items: center;
+}
+/* .movie-genre {
+  margin-left: 10px;
+} */
+
+.mobile-movie-detail-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+  gap: 7px;
+  height: 40px;
+  /* background-color: rgba(0, 0, 0, 0.831); */
+}
+
+.mobile-movie-title {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mobile-short-detail {
+  margin: 0;
+  font-size: 14px;
+}
+
+.mobile-movie-detail-con-dark {
+  background-color: rgba(3, 3, 3, 0.83);
+  color: white;
+}
+
+.mobile-movie-detail-con-light {
+  background-color: rgba(255, 255, 255, 0.823);
+  color: black;
+}
+
+.darker-text {
+  color: rgba(255, 255, 255, 0.708);
+}
+
+.lighter-text {
+  color: rgba(0, 0, 0, 0.719);
+}

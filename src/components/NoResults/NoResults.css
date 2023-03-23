@@ -1,0 +1,20 @@
+.no-results-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.oops-title {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.891);
+  margin: 0;
+}
+
+.no-results-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}

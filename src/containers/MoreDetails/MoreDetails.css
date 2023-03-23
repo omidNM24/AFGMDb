@@ -1,0 +1,36 @@
+.more-details-container {
+  position: relative;
+}
+
+.suggestion-container {
+  padding: 20px;
+  color: white;
+  overflow: hidden;
+}
+
+.suggested-movies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  padding: 20px 0;
+  gap: 10px;
+  /* margin-left: 50px; */
+  width: 100%;
+}
+
+.suggested-title {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.927);
+}
+
+.con-light {
+  background-color: white;
+  color: black;
+}
+
+.con-dark {
+  background-color: #111;
+  color: white;
+}

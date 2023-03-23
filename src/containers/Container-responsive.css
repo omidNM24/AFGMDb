@@ -1,0 +1,117 @@
+@media (max-width: 120em) {
+  .movies-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 112em) {
+  .movies-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 81em) {
+  .movies-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .details-container {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 62em) {
+  .movies-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .movie-link-for-suggestion {
+    width: 100px !important;
+    height: 100px !important;
+    background-size: cover;
+  }
+
+  .movie-main-con-for-suggestion {
+    width: 100px !important;
+    background-size: cover;
+    height: 100px !important;
+  }
+}
+
+@media (max-width: 47em) {
+  .movies-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .hero-title {
+    font-size: 40px !important;
+  }
+
+  .age-rate-hero {
+    font-size: 14px !important;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .hero-detail-paragraph {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 38em) {
+  .hero-container {
+    display: flex !important;
+    height: 100vh !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .details-container {
+    padding: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .image-side {
+    display: none !important;
+  }
+  .hero-container-light {
+    text-shadow: 0 0 20px rgb(255, 255, 255) !important;
+  }
+}
+
+@media (max-width: 31.6em) {
+  .movies-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bold {
+    font-size: 16px !important;
+  }
+  .copyright {
+    font-size: 14px !important;
+    /* color: red; */
+  }
+  .contact-title {
+    font-size: 18px;
+  }
+  .contact {
+    font-size: 14px;
+  }
+  .contact-container {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 25em) {
+  .hero-title {
+    font-size: 30px !important;
+  }
+}

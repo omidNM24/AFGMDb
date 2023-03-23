@@ -1,0 +1,56 @@
+.errorPage-con-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-code {
+  font-size: 500px;
+  position: absolute;
+  color: rgb(15, 0, 0);
+  text-shadow: 0 20px 20px rgba(255, 0, 64, 0.425);
+  z-index: 1;
+}
+
+.errorPage-con {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 0, 0);
+  position: relative;
+}
+
+.errorPage-title {
+  font-size: 50px;
+  z-index: 2;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(255, 55, 55);
+}
+
+.errorPage-instruction {
+  font-size: 25px;
+  font-weight: 500;
+  z-index: 2;
+  color: rgb(255, 83, 83);
+}
+.goBack-btn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-image: linear-gradient(90deg, #ff0040, #ff3154);
+  border-radius: 3px;
+  transition: all 0.2s;
+  z-index: 2;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.goBack-btn:hover {
+  background-image: linear-gradient(160deg, #cf0235, #f83253);
+  box-shadow: 0 5px 0 2px rgb(85, 0, 0);
+}
